@@ -5,6 +5,7 @@ export async function POST(
 ) {
   const body = await request.json();
   const { query } = body;
+  console.log("Query: " + query);
 
   try {
 

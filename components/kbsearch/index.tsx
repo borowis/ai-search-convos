@@ -78,6 +78,7 @@ export default function KbSearch(): React.JSX.Element {
 
       if (!response.ok) {
         setIsLoading(false);
+        console.error('Response status: ' + response.statusText);
         throw new Error(response.statusText);
       }
 
