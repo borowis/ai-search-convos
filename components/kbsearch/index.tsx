@@ -107,7 +107,7 @@ export default function KbSearch(): React.JSX.Element {
       }
     }
 
-    if (true) {
+    if (isAuthed) {
         return (
         <section className="container grid items-center px-0">
             <div className="flex flex-col items-start gap-2">
