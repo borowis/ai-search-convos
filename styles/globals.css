@@ -79,3 +79,36 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+
+.aiResponse {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.aiResponse p {
+  margin: 0.5rem 0;
+}
+
+.aiResponse a {
+  color: #0077cc;
+  text-decoration: none;
+  border-bottom: 1px solid #0077cc;
+}
+
+.aiResponse a:hover {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+.aiResponse ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.aiResponse li {
+  margin: 0.5rem 0;
+  padding: 0;
+}
