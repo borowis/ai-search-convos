@@ -14,7 +14,7 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
   },
   "dependencies": {
-    "@gradio/client": "^0.1.2",
+    "@gradio/client": "^0.1.3",
     "@helpscout/javascript-sdk": "^0.2.1",
     "@hookform/resolvers": "^3.1.0",
     "@radix-ui/react-label": "^2.0.2",
