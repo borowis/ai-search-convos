@@ -98,13 +98,7 @@ export default function KbSearch(): React.JSX.Element {
         const { value, done: doneReading } = await reader.read();
         done = doneReading;
         const chunkValue = decoder.decode(value);
-
-        setResponse((prev) => {
-          if (!prev) {
-            return chunkValue;
-          }
-          return prev + chunkValue
-        });
+        setResponse(chunkValue);
       }
     }
 
