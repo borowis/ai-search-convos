@@ -20,3 +20,9 @@ npx create-next-app -e https://github.com/shadcn/next-template
 ## License
 
 Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+
+## Docker
+
+docker buildx build -t local/ai-search-convos .
+
+docker run --rm -it -p 3000:3000 local/ai-search-convos
